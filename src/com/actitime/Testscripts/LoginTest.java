@@ -1,7 +1,5 @@
-package com.actitime.scripts;
-
+package com.actitime.Testscripts;
 import org.testng.annotations.Test;
-
 import com.actitime.generic.BaseLib;
 import com.actitime.generic.ExcelUtilities;
 import com.actitime.generic.WaitStatementLib;
@@ -10,7 +8,7 @@ import com.actitime.pageObjects.LoginPage;
 
  class LoginTest extends BaseLib{
 	
-	@Test
+	@Test (priority=1)
 	public void validLogin()
 	{
 		String username = ExcelUtilities.readData("Sheet1", 1, 1);
@@ -20,25 +18,17 @@ import com.actitime.pageObjects.LoginPage;
 		
 		EnterTimeTrackPage ettp = new EnterTimeTrackPage(driver);
 		ettp.verifylogo();
-		ettp.verifyTitle();
-		
-		
+		ettp.verifyTitle();	
 	}
 
-//	@Test
+//  @Test (priority=2)
 //	public void InvalidLogin()
 //	{
-//		String username = ExcelUtilities.readData("Sheet1", 2, 1);
+//   		String username = ExcelUtilities.readData("Sheet1", 2, 1);
 //		String password = ExcelUtilities.readData("sheet1", 2, 2);
 //		LoginPage lp =new LoginPage(driver);
-//		WaitStatementLib.eWaitForVisibility(driver, 20, lp.getInvalidLoginMsg());
-//		
+//		//WaitStatementLib.eWaitForVisibility(driver, 20, lp.getInvalidLoginMsg());
 //		lp.login(username, password);
-//		
 //		lp.verifyInvalidLogin();
-//	
-//	
-//	
 	}
-	
-
+ 

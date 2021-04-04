@@ -1,4 +1,4 @@
-package com.actitime.scripts;
+package com.actitime.Testscripts;
 
 import org.testng.annotations.Test;
 
@@ -14,17 +14,6 @@ import com.actitime.pageObjects.OpenTasksPage;
 public class TasksTest extends BaseLib{
 	
 	private static final String password = null;
-
-
-
-
-
-
-
-
-
-
-
 	@Test
 	public void createCustomer()
 	{
@@ -45,9 +34,6 @@ public class TasksTest extends BaseLib{
 		app.verifyCreateCustomer(customerName);
 		app.clickOnLogout();
 	}
-	
-	
-	
 	
 	
 	

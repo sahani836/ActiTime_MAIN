@@ -5,42 +5,30 @@
       <![CDATA[Chrome LAunched]]>
     </line>
     <line>
-      <![CDATA[Logo is verified]]>
-    </line>
-    <line>
-      <![CDATA[Home page title is verified]]>
-    </line>
-    <line>
       <![CDATA[Browser closed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20792" started-at="2018-05-20T18:16:23Z" finished-at="2018-05-20T18:16:44Z">
+  <suite name="Default suite" duration-ms="122764" started-at="2021-04-04T06:27:34Z" finished-at="2021-04-04T06:29:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20792" started-at="2018-05-20T18:16:23Z" finished-at="2018-05-20T18:16:44Z">
-      <class name="com.actitime.scripts.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.scripts.LoginTest@7a1ebcd8]" name="setUp" is-config="true" duration-ms="7989" started-at="2018-05-20T18:16:23Z" finished-at="2018-05-20T18:16:31Z">
+    <test name="Default test" duration-ms="122764" started-at="2021-04-04T06:27:34Z" finished-at="2021-04-04T06:29:37Z">
+      <class name="com.actitime.Testscripts.CreateProject_ID">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.actitime.Testscripts.CreateProject_ID@6d00a15d]" name="setUp" is-config="true" duration-ms="38356" started-at="2021-04-04T11:57:34Z" finished-at="2021-04-04T11:58:12Z">
           <reporter-output>
             <line>
               <![CDATA[Chrome LAunched]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.actitime.scripts.LoginTest@7a1ebcd8]" name="validLogin" duration-ms="12598" started-at="2018-05-20T18:16:31Z" finished-at="2018-05-20T18:16:44Z">
+        <test-method status="PASS" signature="createProject()[pri:0, instance:com.actitime.Testscripts.CreateProject_ID@6d00a15d]" name="createProject" duration-ms="80302" started-at="2021-04-04T11:58:12Z" finished-at="2021-04-04T11:59:33Z">
           <reporter-output>
-            <line>
-              <![CDATA[Logo is verified]]>
-            </line>
-            <line>
-              <![CDATA[Home page title is verified]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.scripts.LoginTest@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="175" started-at="2018-05-20T18:16:44Z" finished-at="2018-05-20T18:16:44Z">
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.actitime.Testscripts.CreateProject_ID@6d00a15d]" name="tearDown" is-config="true" duration-ms="4044" started-at="2021-04-04T11:59:33Z" finished-at="2021-04-04T11:59:37Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validLogin status=SUCCESS method=LoginTest.validLogin()[pri:0, instance:com.actitime.scripts.LoginTest@7a1ebcd8] output=Logo is verified]]]>
+                <![CDATA[[TestResult name=createProject status=SUCCESS method=CreateProject_ID.createProject()[pri:0, instance:com.actitime.Testscripts.CreateProject_ID@6d00a15d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -50,7 +38,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.actitime.scripts.LoginTest -->
+      </class> <!-- com.actitime.Testscripts.CreateProject_ID -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
